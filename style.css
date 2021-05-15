@@ -6,11 +6,12 @@
     background: transparent;
 }
 body {
-    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul {
+nav ul {
     list-style-type: none;
+    height: 30px;
+    padding-top: 15px;
 }
 ul li {
     display: inline;
@@ -18,14 +19,14 @@ ul li {
 ul li .left-side-navigation {
     margin-left: 15px;
     text-decoration: none;
-    color: #000;
+    color: #5f6368;
 }
 ul li .right-side-navigation {
     /*float with the value of right make the item list reverse*/
     float: right;
     margin-right: 15px;
     text-decoration: none;
-    color: #000;
+    color: #5f6368;
 }
 li a img {
     width: 30px;
@@ -75,4 +76,47 @@ li a img {
 }
 #mic-logo {
     float: right;
+}
+.other-feature-content {
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+.other-feature-content a {
+    text-decoration: none;
+    color: #5f6368;
+}
+#google-search-button {
+    margin-right: 15px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+#feeling-lucky-button {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer ul {
+    background-color: #f2f2f2;
+    height: 30px;
+    padding-top: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #5f6368;
+}
+.right-footer {
+    float: right;
+    margin-right: 15px;
+}
+.left-footer {
+    margin-left: 15px;
 }
