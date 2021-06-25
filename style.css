@@ -6,10 +6,14 @@
     background: transparent;
 }
 :root {
-    --white-color: #fff;
+    --primary-color: #fff;
+    --text-color: #5f6368;
+    --secondry-color: #f2f2f2;
 }
 .dark {
-    --white-color: #000;
+    --primary-color: #000;
+    --text-color: #fff;
+    --secondry-color: #201f1f;
 }
 
 #moon-icon {
@@ -20,7 +24,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--white-color);
+    background-color: var(--primary-color);
 }
 nav ul {
     list-style-type: none;
@@ -33,18 +37,20 @@ ul li {
 ul li .left-side-navigation {
     margin-left: 15px;
     text-decoration: none;
-    color: #5f6368;
+    color: var(--text-color);
 }
 ul li .right-side-navigation {
     /*float with the value of right make the item list reverse*/
     float: right;
     margin-right: 15px;
     text-decoration: none;
-    color: #5f6368;
+    color: var(--text-color);
 }
 li a img {
     width: 30px;
     margin-top: -5px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 #sign-in-button {
     border: 1px solid #4285f4;
@@ -99,20 +105,20 @@ li a img {
 }
 .other-feature-content a {
     text-decoration: none;
-    color: #5f6368;
+    color: var(--text-color);
 }
 #google-search-button {
     margin-right: 15px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--secondry-color);
     border-radius: 5px;
     padding: 10px 20px;
-    background-color: #f2f2f2;
+    background-color: var(--secondry-color);
 }
 #feeling-lucky-button {
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--secondry-color);
     border-radius: 5px;
     padding: 10px 20px;
-    background-color: #f2f2f2;
+    background-color: var(--secondry-color);
 }
 footer {
     position: absolute;
@@ -120,13 +126,13 @@ footer {
     width: 100%;
 }
 footer ul {
-    background-color: #f2f2f2;
+    background-color: var(--secondry-color);
     height: 30px;
     padding-top: 10px;
 }
 footer ul li a {
     text-decoration: none;
-    color: #5f6368;
+    color: var(--text-color);
 }
 .right-footer {
     float: right;
@@ -136,5 +142,5 @@ footer ul li a {
     margin-left: 15px;
 }
 .option-theme .option-color {
-    color: #5f6368;
+    color: var(--text-color);
 }
