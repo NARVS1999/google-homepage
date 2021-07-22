@@ -1,146 +1,39 @@
 * {
     border: 0px;
     margin: 0px;
-    /* outline: 2px dotted red; */
+    /* outline: 1px dotted red; */
     padding: 0px;
     background: transparent;
 }
-:root {
-    --primary-color: #fff;
-    --text-color: #5f6368;
-    --secondry-color: #f2f2f2;
-}
-.dark {
-    --primary-color: #000;
-    --text-color: #fff;
-    --secondry-color: #201f1f;
-}
 
-#moon-icon {
-    width: 20px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-body {
+html body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--primary-color);
 }
-nav ul {
-    list-style-type: none;
-    height: 30px;
-    padding-top: 15px;
+.navigation-bar {
+    width: 90%;
+    margin: 10px auto 25px;
 }
-ul li {
+.navigation-bar a {
     display: inline;
-}
-ul li .left-side-navigation {
-    margin-left: 15px;
+    font-size: 1.5em;
+    margin-right: 20px;
     text-decoration: none;
-    color: var(--text-color);
-}
-ul li .right-side-navigation {
-    /*float with the value of right make the item list reverse*/
-    float: right;
-    margin-right: 15px;
-    text-decoration: none;
-    color: var(--text-color);
-}
-li a img {
-    width: 30px;
-    margin-top: -5px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-#sign-in-button {
-    border: 1px solid #4285f4;
-    border-radius: 3px;
-    background-image: linear-gradient(to top, #4387fd, #4683ea);
-    color: #fff;
-    margin-top: -5px;
-    padding: 5px 10px;
-    font-weight: 500;
+    color: rgb(78, 78, 78);
 }
 
-#google-logo {
-    display: block;
-    margin-left: 38%;
-    margin-top: 100px;
-    margin-bottom: 20px;
+.navigation-bar .img-app-logo {
+    margin-bottom: -15px;
+    margin-right: 30px;
+    border-radius: 50%;
 }
-.search-bar {
-    width: 450px;
-    height: 40px;
-    display: block;
-    margin-left: 30%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #c9c0c0;
-    border-radius: 50px;
-    box-shadow: 0px 0px 5px 3px #f0eaea;
-    background-color: #fff;
+
+.navigation-bar .img-john {
+    margin-bottom: -25px;
+    border-radius: 50%;
 }
-.search-bar-icon {
-    width: 25px;
-    padding-top: 8px;
-    margin: 0px 7px;
-}
-.search-bar-content {
+
+.google-logo {
+    width: 75%;
     display: inline-block;
-    position: absolute;
-    width: 375px;
-    margin-top: 12px;
-    background-color: #fff;
-    /* the value of "none" from outline property 
-    is to make the black line remove from search bar when you click */
-    outline: none;
-}
-#mic-logo {
-    float: right;
-}
-.other-feature-content {
-    text-align: center;
-    margin-left: -50px;
-    margin-top: 50px;
-}
-.other-feature-content a {
-    text-decoration: none;
-    color: var(--text-color);
-}
-#google-search-button {
-    margin-right: 15px;
-    border: 1px solid var(--secondry-color);
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: var(--secondry-color);
-}
-#feeling-lucky-button {
-    border: 1px solid var(--secondry-color);
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: var(--secondry-color);
-}
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-footer ul {
-    background-color: var(--secondry-color);
-    height: 30px;
-    padding-top: 10px;
-}
-footer ul li a {
-    text-decoration: none;
-    color: var(--text-color);
-}
-.right-footer {
-    float: right;
-    margin-right: 15px;
-}
-.left-footer {
-    margin-left: 15px;
-}
-.option-theme .option-color {
-    color: var(--text-color);
+    margin: 20px 0 20px 5clea0px;
 }

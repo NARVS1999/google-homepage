@@ -4,42 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Google-Homepage</title>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <script src="script.js"></script>
-    <nav>
-        <ul>
-            <li><a href="#" class="left-side-navigation">About</a></li>
-            <li><a href="#" class="left-side-navigation">Store</a></li>
-            <li><a href="#" class="right-side-navigation" id="sign-in-button">Sign in</a></li>
-            <li><a href="#" class="right-side-navigation"><img src="images/app-logo.png" alt="app-logo"></a></li>
-            <li><a href="#" class="right-side-navigation">Images</a></li>
-            <li><a href="#" class="right-side-navigation">Gmail</a></li>   
-        </ul>
-        <img id="moon-icon" src="images/moon.png" alt="moon-icon" onclick="darkMode()">    
+    <nav class="navigation-bar">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img class="img-app-logo" src="images/app-logo.png" alt="app-logo">
+        <img class="img-john" src="images/john.jpg" alt="john">
     </nav>
-    <main>
-        <img src="images/googlel-logo.png" alt="google-logo" id="google-logo">
-        <div class="search-bar">
-            <img class="search-bar-icon" src="images/search-logo.png" alt="mic-log" >
-            <input class="search-bar-content" type="search" placeholder="Search">
-            <img class="search-bar-icon" id="mic-logo"  src="images/mic-logo.png" alt="mic-logo" title="Search by voice">
-        </div>
-        <div class="other-feature-content">
-            <a href="#" id="google-search-button">Google Search</a>
-            <a href="#" id="feeling-lucky-button">I'm Feeling Lucky</a>
-        </div>
-    </main>
+    <img class="google-logo" src="images/googlel-logo.png" alt="google-logo">
+    <div>
+        <img src="images/search-logo.png" alt="search-logo">
+        <input type="search">
+        <img src="images/mic-logo.png" alt="mic-logo">
+    </div>
+    <div>
+        <a href="#">Google Search</a>
+        <a href="#">I'm Feeling Lucky</a>
+    </div>
+    <p>Google offered in: <a href="#">Filipino</a> <a href="#">Cebuano</a></p>
+    <p>Philippines</p>
     <footer>
         <ul>
-            <li><a href="#" class="left-footer">Advertising</a></li>
-            <li><a href="#" class="left-footer">Business</a></li>
-            <li><a href="#" class="left-footer">How Search works</a></li>
-            <li><a href="#" class="right-footer">Setting</a></li>
-            <li><a href="#" class="right-footer">Terms</a></li>
-            <li><a href="#" class="right-footer">Privacy</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search works</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
         </ul>
     </footer>
 </body>
