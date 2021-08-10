@@ -26,7 +26,7 @@ body {
     margin-right: 20px;
 }
 .navigation-bar .nav-text-link:hover {
-    border-bottom: 2px solid #808080;
+    border-bottom: 1px solid #808080;
 }
 .navigation-bar .img-app-logo {
     width: 30px;
@@ -85,6 +85,77 @@ body {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;  
+}
+.search-bar-container {
+    width: 500px;
+    height: 20px;
+    display: flex;
+    margin: 40px auto 0;
+    border: 2px solid #e9e6e6;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+.search-bar-container:hover {
+    box-shadow: 0 3px 10px 5px #d3d3d3;
+}
+
+.search-bar-container .img-search-logo {
+    width: 20px;
+}
+.search-bar-container .search-input {
+    width: 460px;
+    padding: 0 10px;
+    outline: none;
+}
+.search-bar-container .img-mic-logo {
+    width: 20px;
+}
+.mic-logo[data-title]:hover:after {
+    visibility: visible;
+}
+.mic-logo[data-title]:after {
+    content: attr(data-title);
+    background-color: #242424;    
+    color: #ffffff;
+    position: absolute;
+    padding: 5px 10px;
+    visibility: hidden;
+    width: fit-content;
+    margin: 40px 0 0 -80px;
+    font-size: .75em;
+}
+.button-option-container {
+    margin: 30px auto 0;
+    width: fit-content;
+} 
+.button-option-container a {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #f3f1f1;
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #f3f1f1;
+}
+.button-option-container a:hover {
+    background-color: #ffffff;
+    border-color: #d3d3d3;
+}
+.language-option-container {
+    margin: 40px auto 0;
+    width: fit-content;
+}
+.language-option-container p {
+    font-weight: bold;
+    color: #808080;
+    font-size: .9em;
+}
+.language-option-container p a {
+    color: #0000ff;
+    text-decoration: none;
+}
+.language-option-container p a:hover {
+    border-bottom: 1px solid #0000ff;
 }
